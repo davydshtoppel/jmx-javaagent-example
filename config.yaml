@@ -1,0 +1,39 @@
+---
+whitelistObjectNames: ["Coherence:*"]
+
+rules:
+# Coherence<type=Cluster><>refresh_time: 1.608372457056E9
+  - pattern: "Coherence<type=Cluster><>(.+):"
+    name: vendor:coherence_cluster_$1
+    attrNameSnakeCase: true
+# Coherence<type=Management><>refresh_timeout_count: 0
+  - pattern: "Coherence<type=Management><>(.+):"
+    name: vendor:coherence_management_$1
+    attrNameSnakeCase: true
+# Coherence<type=Node, nodeId=1><>process_name: 11829
+  - pattern: "Coherence<type=Node, nodeId=(.+)><>(.+):"
+    name: vendor:coherence_node_$2
+    labels:
+      node: "$1"
+    attrNameSnakeCase: true
+# Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><Usage>used: 19000320
+  - pattern: "Coherence<type=Platform, Domain=java.lang, name=(.+), subType=MemoryPool, nodeId=(.+)><Usage>(.+):"
+    name: vendor:coherence_memory_usage_$3
+    labels:
+      node: "$2"
+      name: "$1"
+    attrNameSnakeCase: true
+# Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><PeakUsage>committed: 244318208
+  - pattern: "Coherence<type=Platform, Domain=java.lang, name=(.+), subType=MemoryPool, nodeId=(.+)><PeakUsage>(.+):"
+    name: vendor:coherence_memory_peak_usage_$3
+    labels:
+      node: "$2"
+      name: "$1"
+    attrNameSnakeCase: true
+# Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><CollectionUsage>max: 4294967296
+  - pattern: "Coherence<type=Platform, Domain=java.lang, name=(.+), subType=MemoryPool, nodeId=(.+)><CollectionUsage>(.+):"
+    name: vendor:coherence_memory_collection_usage_$3
+    labels:
+      node: "$2"
+      name: "$1"
+    attrNameSnakeCase: true

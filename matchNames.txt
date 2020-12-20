@@ -1,0 +1,309 @@
+Coherence<type=Cluster><>refresh_time: 1.60837246465E9
+Coherence<type=Cluster><>license_mode: Development
+Coherence<type=Cluster><>cluster_size: 1
+Coherence<type=Cluster><>local_member_id: 1
+Coherence<type=Cluster><>version: 20.06.1
+Coherence<type=Cluster><>running: true
+Coherence<type=Cluster><>cluster_name: davydstoppel's cluster
+Coherence<type=Cluster><>members_departure_count: 0
+Coherence<type=Cluster><>oldest_member_id: 1
+
+Coherence<type=Management><>refresh_time: 1.608372458778E9
+Coherence<type=Management><>refresh_on_query: false
+Coherence<type=Management><>remote_notification_count: 0
+Coherence<type=Management><>refresh_prediction_count: 0
+Coherence<type=Management><>refresh_excess_count: 0
+Coherence<type=Management><>refresh_count: 0
+Coherence<type=Management><>refresh_timeout_count: 0
+Coherence<type=Management><>expiry_delay: 1000
+Coherence<type=Management><>refresh_policy: refresh-ahead
+
+Coherence<type=Persistence, service="SYS:Config", responsibility=PersistenceCoordinator><>operation_status: Idle
+Coherence<type=Persistence, service="SYS:Config", responsibility=PersistenceCoordinator><>coordinator_id: 1
+Coherence<type=Persistence, service="SYS:Config", responsibility=PersistenceCoordinator><>idle: true
+
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>partition_count: 257
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>backup_count: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>coordinator_id: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>service_node_count: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>service_machine_count: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>service_rack_count: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>service_site_count: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>hastatus: ENDANGERED
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>hastatus_code: 1
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>hatarget: NODE-SAFE
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>fair_share_backup: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>fair_share_primary: 257
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>last_analysis_time: 1.60837245008E9
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>remaining_distribution_count: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>average_partition_size_kb: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>max_partition_size_kb: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>max_storage_size_kb: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>average_storage_size_kb: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>max_load_node_id: 0
+Coherence<type=PartitionAssignment, service=Service, responsibility=DistributionCoordinator><>strategy_name: SimpleAssignmentStrategy
+
+Coherence<type=PointToPoint, nodeId=1><>refresh_time: 1.608372457145E9
+Coherence<type=PointToPoint, nodeId=1><>receiver_success_rate: -1.0
+Coherence<type=PointToPoint, nodeId=1><>last_in: -1
+Coherence<type=PointToPoint, nodeId=1><>viewed_member_id: 0
+Coherence<type=PointToPoint, nodeId=1><>publisher_success_rate: -1.0
+Coherence<type=PointToPoint, nodeId=1><>last_slow: -1
+Coherence<type=PointToPoint, nodeId=1><>outstanding_packets: -1
+Coherence<type=PointToPoint, nodeId=1><>last_out: -1
+Coherence<type=PointToPoint, nodeId=1><>deferring: false
+Coherence<type=PointToPoint, nodeId=1><>pause_rate: -1.0
+Coherence<type=PointToPoint, nodeId=1><>deferred_packets: -1
+Coherence<type=PointToPoint, nodeId=1><>paused: false
+Coherence<type=PointToPoint, nodeId=1><>threshold: -1
+
+Coherence<type=Reporter, nodeId=1><>last_execute_time: 0.0
+Coherence<type=Reporter, nodeId=1><>output_path: /Users/davydstoppel/Projects/coherence-sample/.
+Coherence<type=Reporter, nodeId=1><>config_file: reports/report-group.xml
+Coherence<type=Reporter, nodeId=1><>run_last_millis: 0
+Coherence<type=Reporter, nodeId=1><>run_average_millis: 0.0
+Coherence<type=Reporter, nodeId=1><>interval_seconds: 60
+Coherence<type=Reporter, nodeId=1><>refresh_time: 1.608372466423E9
+Coherence<type=Reporter, nodeId=1><>run_max_millis: 0
+Coherence<type=Reporter, nodeId=1><>state: Stopped
+Coherence<type=Reporter, nodeId=1><>current_batch: 0
+Coherence<type=Reporter, nodeId=1><>auto_start: false
+
+Coherence<type=Node, nodeId=1><>process_name: 11829
+
+Coherence<type=Service, name=Service, nodeId=1><>task_timeout_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>persistence_latency_max: 0
+Coherence<type=Service, name=Service, nodeId=1><>thread_average_active_count: 0.0
+Coherence<type=Service, name=Service, nodeId=1><>messages_sent: 18
+Coherence<type=Service, name=Service, nodeId=1><>thread_count_max: 2147483647
+Coherence<type=Service, name=Service, nodeId=1><>refresh_time: 1.608372467603E9
+Coherence<type=Service, name=Service, nodeId=1><>owned_partitions_backup: 0
+Coherence<type=Service, name=Service, nodeId=1><>task_max_backlog: 0
+Coherence<type=Service, name=Service, nodeId=1><>request_pending_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>thread_count_min: 1
+Coherence<type=Service, name=Service, nodeId=1><>event_backlog: 0
+Coherence<type=Service, name=Service, nodeId=1><>outgoing_transfer_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>task_timeout_millis: 0
+Coherence<type=Service, name=Service, nodeId=1><>transport_retained_bytes: -1
+Coherence<type=Service, name=Service, nodeId=1><>persistence_active_space_total: -1
+Coherence<type=Service, name=Service, nodeId=1><>thread_idle_count: 1
+Coherence<type=Service, name=Service, nodeId=1><>member_count: 1
+Coherence<type=Service, name=Service, nodeId=1><>task_hung_task_id: n/a
+Coherence<type=Service, name=Service, nodeId=1><>persistence_mode: on-demand
+Coherence<type=Service, name=Service, nodeId=1><>thread_abandoned_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>transport_sent_messages: -1
+Coherence<type=Service, name=Service, nodeId=1><>persistence_snapshot_space_available: 0
+Coherence<type=Service, name=Service, nodeId=1><>running: true
+Coherence<type=Service, name=Service, nodeId=1><>request_max_duration: 38
+Coherence<type=Service, name=Service, nodeId=1><>transport_sent_bytes: -1
+Coherence<type=Service, name=Service, nodeId=1><>event_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>storage_enabled: true
+Coherence<type=Service, name=Service, nodeId=1><>storage_enabled_count: 1
+Coherence<type=Service, name=Service, nodeId=1><>transport_address: n/a
+Coherence<type=Service, name=Service, nodeId=1><>partitions_vulnerable: 257
+Coherence<type=Service, name=Service, nodeId=1><>task_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>thread_count_update_time: 0.0
+Coherence<type=Service, name=Service, nodeId=1><>transport_status: n/a
+Coherence<type=Service, name=Service, nodeId=1><>partitions_unbalanced: 0
+Coherence<type=Service, name=Service, nodeId=1><>persistence_active_space_used: -1
+Coherence<type=Service, name=Service, nodeId=1><>persistence_latency_average: 0.0
+Coherence<type=Service, name=Service, nodeId=1><>backup_count: 1
+Coherence<type=Service, name=Service, nodeId=1><>task_backlog: 0
+Coherence<type=Service, name=Service, nodeId=1><>transport_backlogged_connections: -1
+Coherence<type=Service, name=Service, nodeId=1><>transport_received_messages: -1
+Coherence<type=Service, name=Service, nodeId=1><>request_timeout_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>backup_count_after_writebehind: 1
+Coherence<type=Service, name=Service, nodeId=1><>task_hung_threshold_millis: 0
+Coherence<type=Service, name=Service, nodeId=1><>request_average_duration: 17.4
+Coherence<type=Service, name=Service, nodeId=1><>request_pending_duration: 0
+Coherence<type=Service, name=Service, nodeId=1><>owned_partitions_primary: 257
+Coherence<type=Service, name=Service, nodeId=1><>persistence_snapshot_space_total: 0
+Coherence<type=Service, name=Service, nodeId=1><>task_hung_duration: 0
+Coherence<type=Service, name=Service, nodeId=1><>messages_local: 12
+Coherence<type=Service, name=Service, nodeId=1><>task_average_duration: 0.0
+Coherence<type=Service, name=Service, nodeId=1><>partitions_endangered: 257
+Coherence<type=Service, name=Service, nodeId=1><>statistics: Cpu=76ms (0.4%), Messages=12, Throughput=157.89473msg/sec, AverageActiveThreadCount=0.0, Tasks=0, AverageTaskDuration=0.0ms, MaximumBacklog=0
+Coherence<type=Service, name=Service, nodeId=1><>partitions_all: 257
+Coherence<type=Service, name=Service, nodeId=1><>persistence_environment: SafeBerkeleyDBEnvironment(ActiveDirectory=null, SnapshotDirectory=/Users/davydstoppel/coherence/snapshots/davydstoppel-s-cluster/Service)
+Coherence<type=Service, name=Service, nodeId=1><>messages_received: 12
+Coherence<type=Service, name=Service, nodeId=1><>type: DistributedCache
+Coherence<type=Service, name=Service, nodeId=1><>thread_count: 1
+Coherence<type=Service, name=Service, nodeId=1><>transport_connections: -1
+Coherence<type=Service, name=Service, nodeId=1><>request_timeout_millis: 0
+Coherence<type=Service, name=Service, nodeId=1><>senior_member_id: 1
+Coherence<type=Service, name=Service, nodeId=1><>persistence_active_space_available: -1
+Coherence<type=Service, name=Service, nodeId=1><>join_time: 1.608372449992E9
+Coherence<type=Service, name=Service, nodeId=1><>request_total_count: 5
+Coherence<type=Service, name=Service, nodeId=1><>persistence_snapshot_archiver: n/a
+Coherence<type=Service, name=Service, nodeId=1><>quorum_status: allowed-actions=distribution, restore, read, write, recover
+Coherence<type=Service, name=Service, nodeId=1><>task_hung_count: 0
+Coherence<type=Service, name=Service, nodeId=1><>status_ha: ENDANGERED
+Coherence<type=Service, name=Service, nodeId=1><>thread_pool_sizing_enabled: true
+Coherence<type=Service, name=Service, nodeId=1><>transport_received_bytes: -1
+
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><Usage>used: 1409024
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>process_cpu_time: 22553841000
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>committed_virtual_memory_size: 10858811392
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>free_memory_size: 1584545792
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>cpu_load: 0.0
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>process_cpu_load: 0.0
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>free_physical_memory_size: 1584586752
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>system_cpu_load: 0.0
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>system_load_average: 2.6123046875
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><Usage>used: 10368000
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><HeapMemoryUsage>used: 103934976
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><NonHeapMemoryUsage>committed: 84344832
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><NonHeapMemoryUsage>used: 78523688
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><Usage>used: 82837504
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><PeakUsage>used: 82837504
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><Usage>used: 3297408
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>used: 3319296
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><Usage>used: 19000320
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><PeakUsage>used: 19000320
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>name: CodeHeap 'non-nmethods'
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>type: NON_HEAP
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><Usage>committed: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><Usage>init: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><Usage>max: 5840896
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><Usage>used: 1412864
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><PeakUsage>committed: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><PeakUsage>init: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><PeakUsage>max: 5840896
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><PeakUsage>used: 1519232
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_supported: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-nmethods', subType=MemoryPool, nodeId=1><>collection_usage_threshold_supported: false
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>open_file_descriptor_count: 252
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>max_file_descriptor_count: 10240
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>process_cpu_time: 30043225000
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>committed_virtual_memory_size: 10862845952
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>total_swap_space_size: 3221225472
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>free_swap_space_size: 1110441984
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>free_memory_size: 1550999552
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>total_memory_size: 17179869184
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>cpu_load: 0.2526990913949759
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>process_cpu_load: 0.07990775850311832
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>free_physical_memory_size: 1550999552
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>total_physical_memory_size: 17179869184
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>system_cpu_load: NaN
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>name: Mac OS X
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>version: 10.16
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>arch: x86_64
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>available_processors: 12
+Coherence<type=Platform, Domain=java.lang, subType=OperatingSystem, nodeId=1><>system_load_average: 2.48291015625
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>name: CodeHeap 'profiled nmethods'
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>type: NON_HEAP
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><Usage>committed: 12124160
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><Usage>init: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><Usage>max: 122908672
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><Usage>used: 10816640
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>committed: 12124160
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>init: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>max: 122908672
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>used: 11960704
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_supported: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'profiled nmethods', subType=MemoryPool, nodeId=1><>collection_usage_threshold_supported: false
+Coherence<type=Platform, Domain=java.lang, name=CodeCacheManager, subType=MemoryManager, nodeId=1><>name: CodeCacheManager
+Coherence<type=Platform, Domain=java.lang, name=CodeCacheManager, subType=MemoryManager, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=Metaspace Manager, subType=MemoryManager, nodeId=1><>name: Metaspace Manager
+Coherence<type=Platform, Domain=java.lang, name=Metaspace Manager, subType=MemoryManager, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>name: G1 Survivor Space
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>type: HEAP
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><Usage>committed: 2097152
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><Usage>init: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><Usage>max: -1
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><Usage>used: 2097152
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><PeakUsage>committed: 5242880
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><PeakUsage>init: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><PeakUsage>max: -1
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><PeakUsage>used: 4374576
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>usage_threshold_supported: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><CollectionUsage>committed: 2097152
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><CollectionUsage>init: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><CollectionUsage>max: -1
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><CollectionUsage>used: 2097152
+Coherence<type=Platform, Domain=java.lang, name=G1 Survivor Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold_supported: true
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Generation, subType=GarbageCollector, nodeId=1><>collection_count: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Generation, subType=GarbageCollector, nodeId=1><>collection_time: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Generation, subType=GarbageCollector, nodeId=1><>name: G1 Old Generation
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Generation, subType=GarbageCollector, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><>verbose: false
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><HeapMemoryUsage>committed: 165675008
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><HeapMemoryUsage>init: 268435456
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><HeapMemoryUsage>max: 4294967296
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><HeapMemoryUsage>used: 110226432
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><NonHeapMemoryUsage>committed: 84869120
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><NonHeapMemoryUsage>init: 7667712
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><NonHeapMemoryUsage>max: -1
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><NonHeapMemoryUsage>used: 79463384
+Coherence<type=Platform, Domain=java.lang, subType=Memory, nodeId=1><>object_pending_finalization_count: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>name: G1 Eden Space
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>type: HEAP
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><Usage>committed: 101711872
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><Usage>init: 26214400
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><Usage>max: -1
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><Usage>used: 87031808
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><PeakUsage>committed: 150994944
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><PeakUsage>init: 26214400
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><PeakUsage>max: -1
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><PeakUsage>used: 87031808
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>usage_threshold_supported: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><CollectionUsage>committed: 101711872
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><CollectionUsage>init: 26214400
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><CollectionUsage>max: -1
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><CollectionUsage>used: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Eden Space, subType=MemoryPool, nodeId=1><>collection_usage_threshold_supported: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>name: CodeHeap 'non-profiled nmethods'
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>type: NON_HEAP
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><Usage>committed: 3604480
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><Usage>init: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><Usage>max: 122908672
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><Usage>used: 3401728
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>committed: 3604480
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>init: 2555904
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>max: 122908672
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><PeakUsage>used: 3401728
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>usage_threshold_supported: true
+Coherence<type=Platform, Domain=java.lang, name=CodeHeap 'non-profiled nmethods', subType=MemoryPool, nodeId=1><>collection_usage_threshold_supported: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>name: G1 Old Gen
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>type: HEAP
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>valid: true
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><Usage>committed: 61865984
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><Usage>init: 242221056
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><Usage>max: 4294967296
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><Usage>used: 21097472
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><PeakUsage>committed: 244318208
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><PeakUsage>init: 242221056
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><PeakUsage>max: 4294967296
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><PeakUsage>used: 21097472
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>usage_threshold_supported: true
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>collection_usage_threshold: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>collection_usage_threshold_exceeded: false
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>collection_usage_threshold_count: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><CollectionUsage>committed: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><CollectionUsage>init: 242221056
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><CollectionUsage>max: 4294967296
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><CollectionUsage>used: 0
+Coherence<type=Platform, Domain=java.lang, name=G1 Old Gen, subType=MemoryPool, nodeId=1><>collection_usage_threshold_supported: true
